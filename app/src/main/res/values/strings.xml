@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GoogleAPI</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="nameerror">Enter Valid Name</string>
+    <string name="emailerror">Enter Valid Email</string>
+    <string name="passworderror">Enter Some Password</string>
+    <string name="mobileerror">Enter Valid Mobile Number</string>
+    <string name="d_3_block_l_north_nazimabad_near_taimuria_library_karachi">D-3,BLOCK \'L\' North Nazimabad, Near Taimuria Library,Karachi.</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>

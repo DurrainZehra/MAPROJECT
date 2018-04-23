@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.example.mehdifamily.googleapi.BanquetDetails">
+
+    <android.support.v4.view.ViewPager
+
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+    </android.support.v4.view.ViewPager>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Owner"
+        android:layout_below="@id/viewPager"
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="53dp"
+        android:layout_below="@id/viewPager"
+        android:layout_toEndOf="@+id/textView1"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="Islamuddin"
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:text="Contact#"
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="30dp"
+        android:layout_below="@id/textView2"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
+        android:text="03106225553"
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:text="Address"
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="38dp"
+        android:layout_below="@id/textView4"
+        android:layout_toEndOf="@+id/textView5"
+        android:layout_toRightOf="@+id/textView5"
+        android:text="@string/d_3_block_l_north_nazimabad_near_taimuria_library_karachi"
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView6"
+        android:text="Capacity"
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="38dp"
+        android:layout_below="@id/textView6"
+        android:layout_toEndOf="@+id/textView5"
+        android:layout_toRightOf="@+id/textView5"
+        android:text="550 Guests"
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView8"
+        android:text="Services"
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="38dp"
+        android:layout_below="@id/textView8"
+        android:layout_toEndOf="@+id/textView5"
+        android:layout_toRightOf="@+id/textView5"
+        android:text="Coffee,Lighting,Smoke, Crockery, Ramp Car."
+        android:textSize="18dp"
+        android:textColor="#000000"/>
+
+
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btnBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="BOOK"
+        android:background="#1590c4"
+        android:textColor="#ffffff"
+
+        />
+
+
+</RelativeLayout>
